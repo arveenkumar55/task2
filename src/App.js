@@ -67,25 +67,6 @@ function App() {
 
   }
 
-
-  // for (let i = 0; i < kongxData().length; i++) {
-
-  //   if (daysCriteria === 'all') {
-
-  //     kongxDataGraph.push([new Date(kongxData()[i].day).getTime(), kongxData()[i][ValueChecked]])
-
-  //   } else {
-  //     let date1 = new Date(kongxData()[i].day);
-  //     let date2 =  new Date();
-  //     let diffDays = parseInt((date2 - date1) / (1000 * 60 * 60 * 24), 10);
-
-  //     // console.log('diffDays', diffDays)
-  //     if (diffDays <= 31) {
-  //       kongxDataGraph.push([new Date(kongxData()[i].day).getTime(), kongxData()[i][ValueChecked]])
-  //     }
-  //   }
-  // }
-
   return (
     <div className="App">
 
